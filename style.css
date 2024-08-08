@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL2dsYXNzLWJ1aWxkaW5ncy0zLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NTEyfSwidG9Gb3JtYXQiOiJhdmlmIn19");
+
+}
+.container{
+    background-color: white;
+}
+h1{
+    background-color: gray;
+    color: white;
+}
+#question-container {
+    margin-bottom: 20px;
+    background-color: rgb(211, 211, 199);
+}
+
+#options {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#options li {
+    margin-bottom: 10px;
+}
+
+#submit-btn {
+    margin-top: 20px;
+}
+
+#result-container {
+    display: none;
+    margin-top: 20px;
+    background-color: bisque;
+}
+
+#next-btn {
+    margin-top: 20px;
+}

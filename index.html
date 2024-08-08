@@ -1,0 +1,36 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Quiz Game</h1>
+                <div id="question-container">
+                    <p id="question"></p>
+                    <ul id="options">
+                        <li><input type="radio" name="option" value="option1"><label>Option 1</label></li>
+                        <li><input type="radio" name="option" value="option2"><label>Option 2</label></li>
+                        <li><input type="radio" name="option" value="option3"><label>Option 3</label></li>
+                        <li><input type="radio" name="option" value="option4"><label>Option 4</label></li>
+                    </ul>
+                    <button id="submit-btn" class="btn btn-primary">Submit</button>
+                </div>
+                <div id="result-container">
+                    <p id="result"></p>
+                    <button id="next-btn" class="btn btn-primary">Next Question</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
